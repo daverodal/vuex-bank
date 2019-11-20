@@ -1,4 +1,4 @@
-# vuex-todo
+# vuex-bank
 
 ## Project setup
 ```

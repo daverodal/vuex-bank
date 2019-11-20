@@ -1,5 +1,5 @@
 {
-  "name": "vuex-todo",
+  "name": "vuex-bank",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
+    "lodash": "^4.17.15",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
     "vuex": "^3.0.1"
