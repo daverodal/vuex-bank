@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import { sum } from 'lodash'
 
 Vue.use(Vuex)
-const curTrans = JSON.parse(localStorage.transactions);
+const curTrans = localStorage.transactions ? JSON.parse(localStorage.transactions) : [300];
 export default new Vuex.Store({
   state: {
     transactions: [...curTrans]
