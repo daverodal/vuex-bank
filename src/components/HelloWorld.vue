@@ -39,7 +39,6 @@
    },
         watch: {
             transactions: ( arg ) => {
-                debugger;
                 localStorage.transactions = JSON.stringify(arg);
             }
         },
