@@ -1,3 +1,7 @@
+/*
+ * this is the main vuex store
+ */
+
 import Vue from 'vue'
 import Vuex from 'vuex'
 import { sum } from 'lodash'
